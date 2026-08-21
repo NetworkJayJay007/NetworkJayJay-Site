@@ -178,33 +178,35 @@ section {
   color: var(--text-dim);
 }
 
-.contact-list {
+.contact-icons {
   display: flex;
-  flex-direction: column;
-  gap: 12px;
+  gap: 14px;
   margin-top: 20px;
-  max-width: 360px;
 }
 
-.contact-item {
+.icon-btn {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 16px 20px;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
   background: var(--bg-elev);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-}
-
-.contact-label {
   color: var(--text-dim);
-  font-size: 0.9rem;
+  transition: border-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
 }
 
-.contact-value {
-  font-weight: 600;
+.icon-btn svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-btn:hover {
+  border-color: var(--accent-2);
   color: var(--accent-2);
-  text-decoration: none;
+  transform: translateY(-2px);
 }
 
 .site-footer {
