@@ -143,6 +143,49 @@ section {
   color: var(--text-dim);
 }
 
+.about p a {
+  color: var(--accent-2);
+  text-decoration: none;
+}
+
+.about p a:hover {
+  text-decoration: underline;
+}
+
+.skills {
+  margin-top: 36px;
+  max-width: 640px;
+}
+
+.skill-group-label {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-dim);
+  margin: 20px 0 10px;
+}
+
+.skill-group-label:first-child {
+  margin-top: 0;
+}
+
+.skill-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pill {
+  padding: 6px 14px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  color: var(--text);
+}
+
 .link-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
