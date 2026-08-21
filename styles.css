@@ -189,31 +189,38 @@ section {
   display: flex;
   gap: 14px;
   margin-top: 20px;
+  flex-wrap: wrap;
 }
 
 .icon-btn {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 52px;
-  height: 52px;
+  gap: 10px;
+  padding: 14px 22px;
   background: var(--bg-elev);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  color: var(--text-dim);
-  transition: border-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+  color: var(--text);
+  font-weight: 500;
+  text-decoration: none;
+  transition: border-color 0.15s ease, transform 0.15s ease;
 }
 
 .icon-btn svg {
-  width: 24px;
-  height: 24px;
-  fill: currentColor;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  color: var(--text-dim);
+  transition: color 0.15s ease;
 }
 
 .icon-btn:hover {
   border-color: var(--accent-2);
-  color: var(--accent-2);
   transform: translateY(-2px);
+}
+
+.icon-btn:hover svg {
+  color: var(--accent-2);
 }
 
 .site-footer {
