@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About: NetworkJayJay</title>
+<meta name="description" content="About Anya (NetworkJayJay): IT operations, device management, identity and cloud, infrastructure, and automation.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐱</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=4">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">NetworkJay<span>Jay</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html" class="current">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="eyebrow">About</p>
+      <h1>Hey, I'm <span class="accent">Anya</span>.</h1>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="wrap">
+      <p>
+        I have experience running IT operations end to end: device
+        management, SSO and identity integrations, cloud migrations, and
+        cybersecurity training. I lead projects from planning through
+        execution, mentor other IT staff, and lean on scripting and automation
+        to cut out repetitive work wherever I can.
+      </p>
+      <p>
+        Outside of work, that same interest in infrastructure carries over
+        into a self-hosted homelab (Proxmox, media stacks, networking) and
+        building my own apps and tools, including <a href="https://thelocalcrux.com" target="_blank" rel="noopener">TheLocalCrux</a>.
+      </p>
+      <div class="skills">
+        <span class="skill-group-label">Device Management</span>
+        <div class="skill-pills">
+          <span class="pill">Jamf</span>
+          <span class="pill">Mosyle</span>
+          <span class="pill">Intune</span>
+          <span class="pill">MDM</span>
+        </div>
+        <span class="skill-group-label">Identity &amp; Cloud</span>
+        <div class="skill-pills">
+          <span class="pill">Azure</span>
+          <span class="pill">Office 365</span>
+          <span class="pill">Active Directory</span>
+          <span class="pill">SAML</span>
+          <span class="pill">SSO</span>
+          <span class="pill">SCIM</span>
+          <span class="pill">Google Workspace</span>
+        </div>
+        <span class="skill-group-label">Infrastructure</span>
+        <div class="skill-pills">
+          <span class="pill">VMware</span>
+          <span class="pill">Hyper-V</span>
+          <span class="pill">SaaS</span>
+          <span class="pill">Linux</span>
+          <span class="pill">Windows</span>
+          <span class="pill">macOS</span>
+          <span class="pill">iOS</span>
+          <span class="pill">Android</span>
+        </div>
+        <span class="skill-group-label">Automation &amp; Tools</span>
+        <div class="skill-pills">
+          <span class="pill">PowerShell</span>
+          <span class="pill">Python</span>
+          <span class="pill">APIs</span>
+          <span class="pill">Zendesk</span>
+          <span class="pill">Slack</span>
+          <span class="pill">Teams</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; <span id="year"></span> NetworkJayJay. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

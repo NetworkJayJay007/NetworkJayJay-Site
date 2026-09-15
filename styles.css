@@ -81,6 +81,19 @@ a { color: inherit; }
     radial-gradient(600px 300px at 85% 20%, rgba(125, 211, 252, 0.10), transparent);
 }
 
+.page-hero {
+  padding: 72px 0 8px;
+  background:
+    radial-gradient(600px 300px at 15% 0%, rgba(110, 231, 183, 0.12), transparent),
+    radial-gradient(600px 300px at 85% 20%, rgba(125, 211, 252, 0.10), transparent);
+}
+
+.page-hero h1 {
+  font-family: var(--font-head);
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  margin: 0;
+}
+
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.14em;
